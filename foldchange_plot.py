@@ -119,7 +119,7 @@ def main():
     if "log2FoldChange" not in df.columns or "padj" not in df.columns:
         print ("El archivo no es valido, debe contener log2FoldChange y padj.")
         sys.exit(2)
-    # Eliminamos todas las columnas del data frame excepto las 2 que nos interesan
+    # Eliminamos todos los posibles valores nulos
     df = df.dropna(subset=["log2FoldChange", "padj"])
 
     # Ahora filtramos por significancia usando el valor padj que representa el valor p

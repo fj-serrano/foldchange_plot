@@ -1,6 +1,7 @@
 # Fold Change Plot (Python)
 
 This Python script processes differential expression matrices from multiple studies and generates four graphical representations: a bar plot, concentration distribution plot, MA plot and volcano plot. The resulting figures support expression analysis and quality assessment across datasets.
+
 ---
 
 ## Input files

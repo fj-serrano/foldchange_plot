@@ -55,19 +55,19 @@ Arguments
 The script generates five output files for every study - assignment - differential expression framework:
 
 1. **Tab-separated values file (tsv)**
-- Contains the processed expression data and the values required for downstream analysis.
+	- Contains the processed expression data and the values required for downstream analysis.
 
 2. **Bar plot (png)**
-- Bar chart showing the percentage of significant miRNAs per log2FoldChange interval they fall into.
+	- Bar chart showing the percentage of significant miRNAs per log2FoldChange interval they fall into.
 
 3. **Concentration distribution plot (png)**
-- Distribution plot showing the base-10 logarithm of relative expression in one condition against the base-10 logarithm of relative expression in the other condition.
+	- Distribution plot showing the base-10 logarithm of relative expression in one condition against the base-10 logarithm of relative expression in the other condition.
 
 4. **MA plot (png)**
-- Plots the base-2 logarithm of the mean expression of a miRNA across the two studied conditions against its log2FoldChange value.
+	- Plots the base-2 logarithm of the mean expression of a miRNA across the two studied conditions against its log2FoldChange value.
 
 5. **Volcano plot (png)**
-- Plots negative log10 of adjusted p-value (padj) against log2FoldChange to identify upregulated and downregulated miRNAs, highlighting the five most significant ones.
+	- Plots negative log10 of adjusted p-value (padj) against log2FoldChange to identify upregulated and downregulated miRNAs, highlighting the five most significant ones.
 
 ---
 

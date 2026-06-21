@@ -12,9 +12,9 @@ This Python script processes differential expression matrices from multiple stud
 	-	de_rcsa 
 	-	de_rcadj
   - The matrices must be named: 
-	-	DESeq2_[Condition 1]_vs_[Condition 2].tsv
-	-	edgeR_[Condition 1]_vs_[Condition 2].tsv
-	-	limma_[Condition 1]_vs_[Condition 2].tsv
+	-	`DESeq2_[Condition 1]_vs_[Condition 2].tsv`
+	-	`edgeR_[Condition 1]_vs_[Condition 2].tsv`
+	-	`limma_[Condition 1]_vs_[Condition 2].tsv`
 
 ---
 
